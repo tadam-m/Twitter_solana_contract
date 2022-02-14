@@ -1,0 +1,13 @@
+[programs.localnet]
+solana_twitter = "53uHc3xziZrgYCUnzagfqqRi9rJY4yYG6TevrAwqrcfN"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/tadam/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+my-custom-script = "echo 'Hello world!'"
